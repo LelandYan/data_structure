@@ -94,7 +94,12 @@ public class Array<E> {
         data[index] = e;
         size++;
     }
-
+    public E getLast(){
+        return get(size-1);
+    }
+    public E getFirst(){
+        return get(0);
+    }
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
