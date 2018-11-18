@@ -3,7 +3,7 @@ public class Array<E> {
     private int size;
 
     public Array(int capacity) {
-        data = (E[])new Object[capacity];
+        data = (E[]) new Object[capacity];
         size = 0;
     }
 
@@ -55,6 +55,7 @@ public class Array<E> {
         }
         size--;
         data[size] = null;
+        if(size == data.length/2)resize(data.length/2);
         return data[index];
 
     }
@@ -75,16 +76,18 @@ public class Array<E> {
         add(0, e);
     }
 
-    public void remvoeElement(E e){
+    public void remvoeElement(E e) {
         int index = find(e);
-        if(index != -1){
+        if (index != -1) {
             remove(index);
         }
     }
+
     public void add(int index, E e) {
-        if (size == data.length) throw new IllegalArgumentException("Add failed,Array is full");
+
         if (index < 0 || index > size)
             throw new IllegalArgumentException("Add failed,Require index > 0 and index <= size");
+        if (size == data.length) resize(2 * data.length);
         for (int i = size - 1; i >= index; i--) {
             data[i + 1] = data[i];
         }
@@ -103,5 +106,13 @@ public class Array<E> {
         }
         res.append(']');
         return res.toString();
+    }
+
+    private void resize(int newCapacity) {
+        E[] newData = (E[]) (new Object[newCapacity]);
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
     }
 }
