@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -136,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/LinkedListQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+            <state relative-caret-position="316">
+              <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
               <folding>
                 <element signature="e#258#259#0" expanded="true" />
                 <element signature="e#285#286#0" expanded="true" />
@@ -196,9 +193,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="830" />
-    <option name="y" value="197" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="97" />
+    <option name="y" value="165" />
     <option name="width" value="1530" />
     <option name="height" value="1070" />
   </component>
@@ -232,7 +229,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542902835160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542902842230" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -297,7 +294,7 @@
       <workItem from="1542541028494" duration="9851000" />
       <workItem from="1542637173204" duration="5901000" />
       <workItem from="1542849060730" duration="1065000" />
-      <workItem from="1542895293057" duration="6483000" />
+      <workItem from="1542895293057" duration="7089000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -331,10 +328,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23300000" />
+    <option name="totallyTimeSpent" value="23906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="664" y="158" width="1224" height="856" extended-state="0" />
+    <frame x="78" y="132" width="1224" height="856" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18696398" />
@@ -561,8 +558,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
+        <state relative-caret-position="316">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="e#258#259#0" expanded="true" />
             <element signature="e#285#286#0" expanded="true" />
