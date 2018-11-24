@@ -1,4 +1,6 @@
+import java.util.LinkedList;
 import java.util.Stack;
+import java.util.Queue;
 
 public class BST<E extends Comparable<E>> {
     private class Node {
@@ -100,6 +102,53 @@ public class BST<E extends Comparable<E>> {
         System.out.println(node.e);
     }
 
+    public void levelOrder() {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        while (!q.isEmpty()) {
+            Node cur = q.remove();
+            System.out.println(cur.e);
+
+            if (cur.left != null) q.add(cur.left);
+            if (cur.right != null) q.add(cur.right);
+        }
+    }
+    public E minimun(){
+        if(size == 0)throw new IllegalArgumentException("BST is empty");
+        return minimun(root).e;
+    }
+
+    private Node minimun(Node node){
+        if(node.left == null)return node;
+        return minimun(node.left);
+    }
+
+    public E maximum(){
+        if(size == 0)throw new IllegalArgumentException("BST is empty");
+        return maximum(root).e;
+    }
+    private Node maximum(Node node){
+        if(node.right == null)return node;
+        return maximum(node.right);
+    }
+
+    public E removeMin(){
+        E ret = minimun();
+        root = removeMin(root);
+        return ret;
+    }
+
+    private Node removeMin(Node node){
+        if(node.left == null){
+            Node rightNode = node.right;
+            node.right = null;
+            size--;
+            return rightNode;
+        }
+        node.left = removeMin(node.left);
+        return node;
+    }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
@@ -133,7 +182,7 @@ public class BST<E extends Comparable<E>> {
         }
         bst.preOrder();
         System.out.println();
-        bst.preOrderNR();
+        bst.levelOrder();
         System.out.println();
         bst.postOrder();
         System.out.println(bst);
