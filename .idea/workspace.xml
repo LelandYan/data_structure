@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BSTSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BST$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/BST$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/BST.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,23 +27,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="34" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="34" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="10285" />
+          <entry key="java" value="10963" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="10285" />
+          <entry key="JAVA" value="10963" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -114,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+            <state relative-caret-position="337">
+              <caret line="196" column="39" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#Node#0;class#BST#0" />
@@ -131,6 +127,8 @@
                 <element signature="e#1863#1864#0" expanded="true" />
                 <element signature="e#2066#2067#0" expanded="true" />
                 <element signature="e#2097#2098#0" expanded="true" />
+                <element signature="e#3982#3983#0" expanded="true" />
+                <element signature="e#4020#4021#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -262,8 +260,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="817" />
-    <option name="y" value="102" />
+    <option name="x" value="885" />
+    <option name="y" value="72" />
     <option name="width" value="1530" />
     <option name="height" value="920" />
   </component>
@@ -299,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543071797602" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543073142731" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -375,7 +373,7 @@
       <workItem from="1542849060730" duration="1065000" />
       <workItem from="1542895293057" duration="7089000" />
       <workItem from="1542982671639" duration="5473000" />
-      <workItem from="1543048520747" duration="10513000" />
+      <workItem from="1543048520747" duration="12195000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -409,10 +407,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39892000" />
+    <option name="totallyTimeSpent" value="41574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="654" y="82" width="1224" height="736" extended-state="0" />
+    <frame x="708" y="58" width="1224" height="736" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1903945" />
@@ -690,8 +688,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="148" column="20" selection-start-line="148" selection-start-column="20" selection-end-line="148" selection-end-column="20" />
+        <state relative-caret-position="337">
+          <caret line="196" column="39" selection-start-line="196" selection-start-column="30" selection-end-line="196" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#Node#0;class#BST#0" />
@@ -707,6 +705,8 @@
             <element signature="e#1863#1864#0" expanded="true" />
             <element signature="e#2066#2067#0" expanded="true" />
             <element signature="e#2097#2098#0" expanded="true" />
+            <element signature="e#3982#3983#0" expanded="true" />
+            <element signature="e#4020#4021#0" expanded="true" />
           </folding>
         </state>
       </provider>

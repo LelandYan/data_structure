@@ -113,33 +113,35 @@ public class BST<E extends Comparable<E>> {
             if (cur.right != null) q.add(cur.right);
         }
     }
-    public E minimun(){
-        if(size == 0)throw new IllegalArgumentException("BST is empty");
+
+    public E minimun() {
+        if (size == 0) throw new IllegalArgumentException("BST is empty");
         return minimun(root).e;
     }
 
-    private Node minimun(Node node){
-        if(node.left == null)return node;
+    private Node minimun(Node node) {
+        if (node.left == null) return node;
         return minimun(node.left);
     }
 
-    public E maximum(){
-        if(size == 0)throw new IllegalArgumentException("BST is empty");
+    public E maximum() {
+        if (size == 0) throw new IllegalArgumentException("BST is empty");
         return maximum(root).e;
     }
-    private Node maximum(Node node){
-        if(node.right == null)return node;
+
+    private Node maximum(Node node) {
+        if (node.right == null) return node;
         return maximum(node.right);
     }
 
-    public E removeMin(){
+    public E removeMin() {
         E ret = minimun();
         root = removeMin(root);
         return ret;
     }
 
-    private Node removeMin(Node node){
-        if(node.left == null){
+    private Node removeMin(Node node) {
+        if (node.left == null) {
             Node rightNode = node.right;
             node.right = null;
             size--;
@@ -147,6 +149,56 @@ public class BST<E extends Comparable<E>> {
         }
         node.left = removeMin(node.left);
         return node;
+    }
+
+    public E removeMax() {
+        E ret = maximum();
+        root = removeMax(root);
+        return ret;
+    }
+
+    private Node removeMax(Node node) {
+        if (node.right == null) {
+            Node leftNode = node.right;
+            node.left = null;
+            size--;
+            return leftNode;
+        }
+        node.right = removeMax(node.right);
+        return node;
+    }
+
+    public void remove(E e) {
+        root = remove(root, e);
+    }
+
+    private Node remove(Node node, E e) {
+        if (node == null) return null;
+        if (e.compareTo(node.e) < 0) {
+            node.left = remove(node.left, e);
+            return node;
+        } else if (e.compareTo(node.e) > 0) {
+            node.right = remove(node.right, e);
+            return node;
+        } else {
+            if (node.left == null) {
+                Node rightNode = node.right;
+                node.right = null;
+                size--;
+                return rightNode;
+            }
+            if (node.right == null) {
+                Node leftNode = node.left;
+                node.left = null;
+                size--;
+                return leftNode;
+            }
+            Node successor = minimun(node.right);
+            successor.right = removeMin(node.right);
+            successor.left = node.left;
+            node.left = node.right = null;
+            return successor;
+        }
     }
 
     @Override
