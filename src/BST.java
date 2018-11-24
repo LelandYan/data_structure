@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 public class BST<E extends Comparable<E>> {
     private class Node {
         public E e;
@@ -62,38 +64,78 @@ public class BST<E extends Comparable<E>> {
         preOrder(node.right);
 
     }
+
+    public void preOrderNR() {
+        Stack<Node> stack = new Stack<>();
+        stack.push(root);
+        while (!stack.isEmpty()) {
+            Node cur = stack.pop();
+            System.out.println(cur.e);
+            if (cur.right != null)
+                stack.push(cur.right);
+            if (cur.left != null)
+                stack.push(cur.left);
+        }
+    }
+
+    public void inOrder() {
+        inOrder(root);
+    }
+
+    private void inOrder(Node node) {
+        if (node == null) return;
+        inOrder(node.left);
+        System.out.println(node.e);
+        inOrder(node.right);
+    }
+
+    public void postOrder() {
+        postOrder(root);
+    }
+
+    private void postOrder(Node node) {
+        if (node == null) return;
+        inOrder(node.left);
+        inOrder(node.right);
+        System.out.println(node.e);
+    }
+
     @Override
-    public String toString(){
+    public String toString() {
         StringBuilder res = new StringBuilder();
-        generateBSTString(root,0,res);
+        generateBSTString(root, 0, res);
         return res.toString();
     }
 
-    private void generateBSTString(Node node,int depth,StringBuilder res){
-        if(node == null){
+    private void generateBSTString(Node node, int depth, StringBuilder res) {
+        if (node == null) {
             res.append(generateDepthString(depth) + "null\n");
             return;
         }
         res.append(generateDepthString(depth) + node.e + "\n");
-        generateBSTString(node.left,depth+1,res);
-        generateBSTString(node.right,depth+1,res);
+        generateBSTString(node.left, depth + 1, res);
+        generateBSTString(node.right, depth + 1, res);
     }
 
-    private String generateDepthString(int depth){
+    private String generateDepthString(int depth) {
         StringBuilder res = new StringBuilder();
         for (int i = 0; i < depth; i++) {
             res.append("--");
         }
         return res.toString();
     }
+
     public static void main(String[] args) {
         BST<Integer> bst = new BST<>();
-        int[] nums = {5,3,6,8,4,2};
-        for (int num:nums) {
+        int[] nums = {5, 3, 6, 8, 4, 2};
+        for (int num : nums) {
             bst.add(num);
         }
         bst.preOrder();
         System.out.println();
+        bst.preOrderNR();
+        System.out.println();
+        bst.postOrder();
         System.out.println(bst);
     }
 }
