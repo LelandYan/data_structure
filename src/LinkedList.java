@@ -1,6 +1,4 @@
-import sun.dc.pr.PRError;
 
-import java.util.NoSuchElementException;
 
 public class LinkedList<E> {
     private class Node {
