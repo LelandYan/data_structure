@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 
 public class Main {
     private static double testSet(Set<String> set,String filename){
@@ -17,6 +18,20 @@ public class Main {
     }
     public static void main(String[] args)
     {
+        int n = 1000000;
+        MaxHeap<Integer> maxHeap = new MaxHeap<>();
+        Random random = new Random();
+        for (int i = 0; i < n; i++) {
+            maxHeap.add(random.nextInt());
+        }
+        int[] arr = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = maxHeap.extraceMax();
+        }
+        for (int i = 1; i < n; i++) {
+            if(arr[i-1] < arr[i])throw new IllegalArgumentException("Error");
+        }
+        System.out.println("end");
 //        ArrayStack<Integer> stack = new ArrayStack<>();
 //        for (int i = 0; i < 5; i++) {
 //            stack.push(i);
