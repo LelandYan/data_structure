@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,13 +38,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="15890" />
+          <entry key="java" value="16258" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="15890" />
+          <entry key="JAVA" value="16258" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -116,14 +111,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="362">
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#uniqueMorseRepresentations#0;class#Solution#0" />
+                <element signature="method#removeElements#0;class#Solution#0" />
                 <element signature="e#184#222#0" />
                 <element signature="e#475#522#0" />
               </folding>
@@ -187,7 +183,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Array.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2246">
@@ -262,10 +258,10 @@
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/LinkedListSet.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Solution.java" />
         <option value="$PROJECT_DIR$/src/Map.java" />
         <option value="$PROJECT_DIR$/src/LinkedListMap.java" />
         <option value="$PROJECT_DIR$/src/BSTMap.java" />
+        <option value="$PROJECT_DIR$/src/Solution.java" />
       </list>
     </option>
   </component>
@@ -275,9 +271,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-44" />
-    <option name="y" value="365" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="871" />
+    <option name="y" value="92" />
     <option name="width" value="1530" />
     <option name="height" value="944" />
   </component>
@@ -313,7 +309,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543151293077" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543160375739" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -405,7 +401,7 @@
       <workItem from="1542895293057" duration="7089000" />
       <workItem from="1542982671639" duration="5473000" />
       <workItem from="1543048520747" duration="14502000" />
-      <workItem from="1543125156848" duration="9800000" />
+      <workItem from="1543125156848" duration="12254000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -439,10 +435,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53681000" />
+    <option name="totallyTimeSpent" value="56135000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="292" width="1224" height="755" extended-state="1" />
+    <frame x="298" y="164" width="1224" height="755" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1903945" />
@@ -737,19 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#uniqueMorseRepresentations#0;class#Solution#0" />
-            <element signature="e#184#222#0" />
-            <element signature="e#475#522#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -838,6 +821,20 @@
             <element signature="e#2312#2313#0" expanded="true" />
             <element signature="e#2337#2338#0" expanded="true" />
             <element signature="e#2366#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#uniqueMorseRepresentations#0;class#Solution#0" />
+            <element signature="method#removeElements#0;class#Solution#0" />
+            <element signature="e#184#222#0" />
+            <element signature="e#475#522#0" />
           </folding>
         </state>
       </provider>
