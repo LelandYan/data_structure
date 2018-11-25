@@ -41,7 +41,7 @@ public class LinkedList<E> {
     }
 
     public void addFirst(E e) {
-        add(0,e);
+        add(0, e);
     }
 
     public void add(int index, E e) {
@@ -58,7 +58,7 @@ public class LinkedList<E> {
         add(size, e);
     }
 
-    public E get(int index){
+    public E get(int index) {
         if (index < 0 || index >= size)
             throw new IllegalArgumentException("Add failed Illegal index");
         Node cur = dummyHead.next;
@@ -68,15 +68,15 @@ public class LinkedList<E> {
         return cur.e;
     }
 
-    public E getFirst(){
+    public E getFirst() {
         return get(0);
     }
 
-    public E getLast(){
-        return get(size-1);
+    public E getLast() {
+        return get(size - 1);
     }
 
-    public void set(int index,E e){
+    public void set(int index, E e) {
         if (index < 0 || index >= size)
             throw new IllegalArgumentException("Set failed Illegal index");
         Node cur = dummyHead.next;
@@ -86,17 +86,17 @@ public class LinkedList<E> {
         cur.e = e;
     }
 
-    public boolean contains(E e){
+    public boolean contains(E e) {
         Node cur = dummyHead.next;
-        while (cur != null){
-           if(cur.e.equals(e))
-               return true;
-           cur = cur.next;
+        while (cur != null) {
+            if (cur.e.equals(e))
+                return true;
+            cur = cur.next;
         }
         return false;
     }
 
-    public E remove(int index){
+    public E remove(int index) {
         if (index < 0 || index >= size)
             throw new IllegalArgumentException("Set failed Illegal index");
         Node prev = dummyHead;
@@ -110,19 +110,31 @@ public class LinkedList<E> {
         return retNode.e;
     }
 
-    public E removeFirst(){
+    public E removeFirst() {
         return remove(0);
     }
 
-    public  E removeLast(){
-        return remove(size-1);
+    public E removeLast() {
+        return remove(size - 1);
     }
-
-    public String toString(){
+    public void removeElement(E e){
+        Node prev = dummyHead;
+        while(prev.next != null){
+            if(prev.next.e.equals(e))break;
+            prev = prev.next;
+        }
+        if(prev.next != null){
+            Node delNode = prev.next;
+            prev.next = delNode.next;
+            delNode.next = null;
+        }
+    }
+    @Override
+    public String toString() {
         StringBuilder res = new StringBuilder();
 
         Node cur = dummyHead.next;
-        while (cur != null){
+        while (cur != null) {
             res.append(cur + "->");
             cur = cur.next;
         }

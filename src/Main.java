@@ -1,7 +1,20 @@
 import java.util.ArrayList;
 
 public class Main {
-
+    private static double testSet(Set<String> set,String filename){
+        long startTime = System.nanoTime();
+        System.out.println(filename);
+        ArrayList<String> words = new ArrayList<>();
+        if(FileOperation.readFile(filename,words)){
+            System.out.println("Total words: "+ words.size());
+            for (String word:words) {
+                set.add(word);
+            }
+            System.out.println("Total different words: " + set.getSize());
+        }
+        long endTime = System.nanoTime();
+        return (endTime - startTime) / 1000000000.0;
+    }
     public static void main(String[] args)
     {
 //        ArrayStack<Integer> stack = new ArrayStack<>();
@@ -29,15 +42,15 @@ public class Main {
 //        System.out.println(linkedList);
 //        linkedList.remove(2);
 //        System.out.println(linkedList);
-        System.out.println("Pride and Prejudice");
-        ArrayList<String> words1 = new ArrayList<>();
-        FileOperation.readFile("pride-and-prejudice.txt",words1);
-        System.out.println("Total words: " + words1.size());
-
-        BSTSet<String> set1 = new BSTSet<>();
-        for (String word:words1) {
-            set1.add(word);
-        }
-        System.out.println("Total different words: " + set1.getSize());
+//        System.out.println("Pride and Prejudice");
+//        ArrayList<String> words1 = new ArrayList<>();
+//        FileOperation.readFile("pride-and-prejudice.txt",words1);
+//        System.out.println("Total words: " + words1.size());
+//
+//        BSTSet<String> set1 = new BSTSet<>();
+//        for (String word:words1) {
+//            set1.add(word);
+//        }
+//        System.out.println("Total different words: " + set1.getSize());
     }
 }
