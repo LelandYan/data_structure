@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BSTMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/Map.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSTMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LinkedListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedListMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,25 +31,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="45" />
+          <entry key="java" value="46" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="46" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="14834" />
+          <entry key="java" value="15890" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="14834" />
+          <entry key="JAVA" value="15890" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -134,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Map.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -143,10 +143,9 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LinkedListMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="49" selection-end-line="121" selection-end-column="49" />
+            <state relative-caret-position="180">
+              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
               <folding>
-                <element signature="class#Node#0;class#LinkedListMap#0" />
                 <element signature="e#332#333#0" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
                 <element signature="e#402#403#0" expanded="true" />
@@ -155,30 +154,49 @@
                 <element signature="e#574#575#0" expanded="true" />
                 <element signature="method#LinkedListMap#0;class#LinkedListMap#0" />
                 <element signature="method#add#0;class#LinkedListMap#0" />
-                <element signature="method#remvoe#0;class#LinkedListMap#0" />
+                <element signature="e#1602#1603#0" expanded="true" />
+                <element signature="e#1645#1646#0" expanded="true" />
                 <element signature="method#get#0;class#LinkedListMap#0" />
-                <element signature="method#set#0;class#LinkedListMap#0" />
-                <element signature="method#getNode#0;class#LinkedListMap#0" />
+                <element signature="e#2030#2031#0" expanded="true" />
+                <element signature="e#2057#2058#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BSTMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
+              <folding>
+                <element signature="class#Node#0;class#BSTMap#0" />
+                <element signature="method#add#1;class#BSTMap#0" />
+                <element signature="e#1401#1402#0" expanded="true" />
+                <element signature="e#1449#1450#0" expanded="true" />
+                <element signature="method#get#0;class#BSTMap#0" />
+                <element signature="method#set#0;class#BSTMap#0" />
+                <element signature="e#1844#1845#0" expanded="true" />
+                <element signature="e#1871#1872#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1949#1950#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/BSTMap.java">
+        <entry file="file://$PROJECT_DIR$/src/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="2246">
+              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
               <folding>
-                <element signature="class#Node#0;class#BSTMap#0" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#2278#2279#0" expanded="true" />
+                <element signature="e#2312#2313#0" expanded="true" />
+                <element signature="e#2337#2338#0" expanded="true" />
+                <element signature="e#2366#2367#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -257,11 +275,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="546" />
-    <option name="y" value="55" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-44" />
+    <option name="y" value="365" />
     <option name="width" value="1530" />
-    <option name="height" value="934" />
+    <option name="height" value="944" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -295,7 +313,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543146736233" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543151293077" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -314,16 +333,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LinkedListMap">
-    <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayQueue" />
+  <component name="RunManager" selected="Application.BSTMap">
+    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BST" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BST" />
+    <configuration name="BSTMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BSTMap" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -355,18 +374,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.ArrayQueue" />
       <item itemvalue="Application.LoopQueue" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.LinkedListMap" />
+      <item itemvalue="Application.BSTMap" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BSTMap" />
         <item itemvalue="Application.LinkedListMap" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BST" />
         <item itemvalue="Application.LoopQueue" />
-        <item itemvalue="Application.ArrayQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +405,7 @@
       <workItem from="1542895293057" duration="7089000" />
       <workItem from="1542982671639" duration="5473000" />
       <workItem from="1543048520747" duration="14502000" />
-      <workItem from="1543125156848" duration="6285000" />
+      <workItem from="1543125156848" duration="9800000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -420,10 +439,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50166000" />
+    <option name="totallyTimeSpent" value="53681000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="603" y="56" width="1224" height="747" extended-state="0" />
+    <frame x="-35" y="292" width="1224" height="755" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1903945" />
@@ -435,7 +454,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33713356" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5016077" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -444,7 +463,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32636657" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -517,19 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1813">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="e#2278#2279#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2337#2338#0" expanded="true" />
-            <element signature="e#2366#2367#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,17 +781,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="60">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LinkedListMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="121" column="49" lean-forward="true" selection-start-line="121" selection-start-column="49" selection-end-line="121" selection-end-column="49" />
+        <state relative-caret-position="180">
+          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
           <folding>
-            <element signature="class#Node#0;class#LinkedListMap#0" />
             <element signature="e#332#333#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#402#403#0" expanded="true" />
@@ -794,31 +799,63 @@
             <element signature="e#574#575#0" expanded="true" />
             <element signature="method#LinkedListMap#0;class#LinkedListMap#0" />
             <element signature="method#add#0;class#LinkedListMap#0" />
-            <element signature="method#remvoe#0;class#LinkedListMap#0" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1645#1646#0" expanded="true" />
             <element signature="method#get#0;class#LinkedListMap#0" />
-            <element signature="method#set#0;class#LinkedListMap#0" />
-            <element signature="method#getNode#0;class#LinkedListMap#0" />
+            <element signature="e#2030#2031#0" expanded="true" />
+            <element signature="e#2057#2058#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BSTMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="96">
+          <caret line="134" column="52" selection-start-line="134" selection-start-column="52" selection-end-line="134" selection-end-column="52" />
           <folding>
             <element signature="class#Node#0;class#BSTMap#0" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
+            <element signature="method#add#1;class#BSTMap#0" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1449#1450#0" expanded="true" />
+            <element signature="method#get#0;class#BSTMap#0" />
+            <element signature="method#set#0;class#BSTMap#0" />
+            <element signature="e#1844#1845#0" expanded="true" />
+            <element signature="e#1871#1872#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1949#1950#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2246">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="e#2278#2279#0" expanded="true" />
+            <element signature="e#2312#2313#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
+            <element signature="e#2366#2367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
