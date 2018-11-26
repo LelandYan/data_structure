@@ -2,6 +2,14 @@ public class Array<E> {
     private E[] data;
     private int size;
 
+    public Array(E[] arr) {
+        data = (E[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
+
     public Array(int capacity) {
         data = (E[]) new Object[capacity];
         size = 0;
@@ -94,19 +102,23 @@ public class Array<E> {
         data[index] = e;
         size++;
     }
-    public E getLast(){
-        return get(size-1);
+
+    public E getLast() {
+        return get(size - 1);
     }
-    public E getFirst(){
+
+    public E getFirst() {
         return get(0);
     }
-    public void swap(int i ,int j){
-        if(i < 0 || i >= size || j < 0 || j >=size)
+
+    public void swap(int i, int j) {
+        if (i < 0 || i >= size || j < 0 || j >= size)
             throw new IllegalArgumentException("Index is illegal");
         E t = data[i];
-        data[i] =data[j];
+        data[i] = data[j];
         data[j] = t;
     }
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();

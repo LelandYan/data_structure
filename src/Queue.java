@@ -1,5 +1,5 @@
 public interface Queue<E> {
-    int size();
+    int getSize();
     boolean isEmpty();
     void enqueue(E e);
     E getFront();
