@@ -64,4 +64,11 @@ public class MaxHeap<E extends Comparable<E>> {
             k = j;
         }
     }
+
+    public E replace(E e){
+        E ret = findMax();
+        data.set(0,e);
+        siftDown(0);
+        return ret;
+    }
 }
