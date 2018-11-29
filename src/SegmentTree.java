@@ -60,11 +60,11 @@ public class SegmentTree<E> {
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);
 
-        if(queryL >=mid+1)return query(rightTreeIndex,mid+1,r, mid+1,  queryR);
-        else if(queryR <= mid)return query(leftTreeIndex,l,mid, queryL,  mid);
+        if(queryL >=mid+1)return query(rightTreeIndex,mid+1,r, queryL,  queryR);
+        else if(queryR <= mid)return query(leftTreeIndex,l,mid, queryL,  queryR);
         else{
             E leftResult = query(leftTreeIndex,l,mid,queryL,mid);
-            E rightResult = query(rightTreeIndex,mid+1,r,mid,queryR);
+            E rightResult = query(rightTreeIndex,mid+1,r,mid+1,queryR);
             return merger.merge(leftResult,rightResult);
         }
     }
