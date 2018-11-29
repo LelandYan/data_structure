@@ -7,7 +7,7 @@ public class ArrayQueue<E> implements Queue<E>  {
         array = new Array<>();
     }
     @Override
-    public int size() {
+    public int getSize() {
         return array.getSize();
     }
 

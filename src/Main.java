@@ -2,14 +2,14 @@ import java.util.ArrayList;
 import java.util.Random;
 
 public class Main {
-    private static double testHeap(Integer[] testData,boolean isHeapify){
+    private static double testHeap(Integer[] testData, boolean isHeapify) {
         long startTime = System.nanoTime();
         MaxHeap<Integer> maxHeap;
-        if(isHeapify){
+        if (isHeapify) {
             maxHeap = new MaxHeap<>(testData);
-        }else{
+        } else {
             maxHeap = new MaxHeap<>();
-            for (int num:testData) {
+            for (int num : testData) {
                 maxHeap.add(num);
             }
         }
@@ -19,19 +19,20 @@ public class Main {
             arr[i] = maxHeap.extraceMax();
         }
         for (int i = 1; i < testData.length; i++) {
-            if(arr[i-1] < arr[i])throw new IllegalArgumentException("Error");
+            if (arr[i - 1] < arr[i]) throw new IllegalArgumentException("Error");
         }
         System.out.println("Test MaxHeap completed");
         long endTime = System.nanoTime();
-        return (endTime- startTime)/1000000000.0;
+        return (endTime - startTime) / 1000000000.0;
     }
-    private static double testSet(Set<String> set,String filename){
+
+    private static double testSet(Set<String> set, String filename) {
         long startTime = System.nanoTime();
         System.out.println(filename);
         ArrayList<String> words = new ArrayList<>();
-        if(FileOperation.readFile(filename,words)){
-            System.out.println("Total words: "+ words.size());
-            for (String word:words) {
+        if (FileOperation.readFile(filename, words)) {
+            System.out.println("Total words: " + words.size());
+            for (String word : words) {
                 set.add(word);
             }
             System.out.println("Total different words: " + set.getSize());
@@ -39,18 +40,21 @@ public class Main {
         long endTime = System.nanoTime();
         return (endTime - startTime) / 1000000000.0;
     }
-    public static void main(String[] args)
-    {
-        int n = 10000000;
-        Random random = new Random();
-        Integer[] testData = new Integer[n];
-        for (int i = 0; i < n; i++) {
-            testData[i] = random.nextInt(Integer.MAX_VALUE);
-        }
-        double time1 = testHeap(testData,false);
-        System.out.println("Without heapify: " + time1 + " s");
-        double time2 = testHeap(testData,true);
-        System.out.println("With heapify: " + time2 + " s");
+
+    public static void main(String[] args) {
+        Integer[] nums = {-2, 0, 3, -5, 2, -1};
+        SegmentTree<Integer> segTree = new SegmentTree<>(nums, (a, b) -> a + b);
+        System.out.println(segTree.query(0, 2));
+//        int n = 10000000;
+//        Random random = new Random();
+//        Integer[] testData = new Integer[n];
+//        for (int i = 0; i < n; i++) {
+//            testData[i] = random.nextInt(Integer.MAX_VALUE);
+//        }
+//        double time1 = testHeap(testData,false);
+//        System.out.println("Without heapify: " + time1 + " s");
+//        double time2 = testHeap(testData,true);
+//        System.out.println("With heapify: " + time2 + " s");
 //        MaxHeap<Integer> maxHeap = new MaxHeap<>();
 //        Random random = new Random();
 //        for (int i = 0; i < n; i++) {

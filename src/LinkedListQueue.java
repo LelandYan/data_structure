@@ -30,8 +30,10 @@ public class LinkedListQueue<E> implements Queue<E> {
         size = 0;
     }
 
+
+
     @Override
-    public int size() {
+    public int getSize() {
         return size;
     }
 
