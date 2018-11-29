@@ -2,7 +2,8 @@ public class SegmentTree<E> {
     private E[] tree;
     private E[] data;
     private Merger<E> merger;
-    public SegmentTree(E[] arr,Merger<E> merger) {
+
+    public SegmentTree(E[] arr, Merger<E> merger) {
         this.merger = merger;
         data = (E[]) new Object[arr.length];
         for (int i = 0; i < arr.length; i++) {
@@ -24,7 +25,7 @@ public class SegmentTree<E> {
         buildSegmentTree(leftTreeIndex, l, mid);
         buildSegmentTree(rightTreeIndex, mid + 1, r);
 
-        tree[treeIndex] = merger.merge(tree[leftTreeIndex],tree[rightTreeIndex]);
+        tree[treeIndex] = merger.merge(tree[leftTreeIndex], tree[rightTreeIndex]);
     }
 
     public int getSize() {
@@ -43,5 +44,28 @@ public class SegmentTree<E> {
 
     private int rightChild(int index) {
         return 2 * index + 2;
+    }
+
+    public E query(int queryL, int queryR) {
+        if (queryL < 0 || queryL >= data.length ||
+                queryR < 0 || queryR >= data.length || queryR < queryL)
+            throw new IllegalArgumentException("Index is illegal");
+        return query(0, 0, data.length - 1, queryL, queryR);
+    }
+
+    private E query(int treeIndex, int l, int r, int queryL, int queryR) {
+        if (l == queryL && r == queryR) return tree[treeIndex];
+
+        int mid = l + (r - l) / 2;
+        int leftTreeIndex = leftChild(treeIndex);
+        int rightTreeIndex = rightChild(treeIndex);
+
+        if(queryL >=mid+1)return query(rightTreeIndex,mid+1,r, queryL,  queryR);
+        else if(queryR <= mid)return query(leftTreeIndex,l,mid, queryL,  queryR);
+        else{
+            E leftResult = query(leftTreeIndex,l,mid,queryL,mid);
+            E rightResult = query(rightTreeIndex,mid+1,r,mid,queryR);
+            return merger.merge(leftResult,rightResult);
+        }
     }
 }
