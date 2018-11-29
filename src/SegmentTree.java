@@ -10,7 +10,7 @@ public class SegmentTree<E> {
             data[i] = arr[i];
         }
         tree = (E[]) new Object[4 * arr.length];
-        buildSegmentTree(0, 0, data.length - 1);
+        buildSegmentTree(0, 0, arr.length - 1);
     }
 
     private void buildSegmentTree(int treeIndex, int l, int r) {
@@ -60,8 +60,8 @@ public class SegmentTree<E> {
         int leftTreeIndex = leftChild(treeIndex);
         int rightTreeIndex = rightChild(treeIndex);
 
-        if(queryL >=mid+1)return query(rightTreeIndex,mid+1,r, queryL,  queryR);
-        else if(queryR <= mid)return query(leftTreeIndex,l,mid, queryL,  queryR);
+        if(queryL >=mid+1)return query(rightTreeIndex,mid+1,r, mid+1,  queryR);
+        else if(queryR <= mid)return query(leftTreeIndex,l,mid, queryL,  mid);
         else{
             E leftResult = query(leftTreeIndex,l,mid,queryL,mid);
             E rightResult = query(rightTreeIndex,mid+1,r,mid,queryR);
