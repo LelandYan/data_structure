@@ -68,4 +68,15 @@ public class SegmentTree<E> {
             return merger.merge(leftResult,rightResult);
         }
     }
+
+    public void set(int index,E e){
+        if(index < 0 || index >= data.length)
+            throw new IllegalArgumentException("Index id illegal");
+        data[index] = e;
+        set(0,0,data.length-1,index,e);
+    }
+
+    private void set(int treeIndex,int l, int r,int index,E e){
+        
+    }
 }
