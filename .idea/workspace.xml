@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dijkstra.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,13 +41,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="22181" />
+          <entry key="java" value="23239" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22181" />
+          <entry key="JAVA" value="23239" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -59,8 +58,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="483">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +129,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1121" />
-    <option name="y" value="182" />
+    <option name="x" value="710" />
+    <option name="y" value="63" />
     <option name="width" value="1530" />
     <option name="height" value="945" />
   </component>
@@ -164,7 +166,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543677337449" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543680350418" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -184,7 +186,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Dijkstra">
     <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BST" />
       <module name="data_structure" />
@@ -199,15 +201,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedListMap" />
+    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dijkstra" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoopQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LoopQueue" />
+    <configuration name="LinkedListMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedListMap" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,18 +227,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LoopQueue" />
       <item itemvalue="Application.BST" />
       <item itemvalue="Application.LinkedListMap" />
       <item itemvalue="Application.BSTMap" />
+      <item itemvalue="Application.Dijkstra" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.BSTMap" />
         <item itemvalue="Application.LinkedListMap" />
         <item itemvalue="Application.BST" />
-        <item itemvalue="Application.LoopQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +265,7 @@
       <workItem from="1543421117677" duration="278000" />
       <workItem from="1543467673726" duration="13362000" />
       <workItem from="1543590304689" duration="2736000" />
-      <workItem from="1543654293134" duration="4235000" />
+      <workItem from="1543654293134" duration="7195000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -297,10 +299,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84020000" />
+    <option name="totallyTimeSpent" value="86980000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="794" y="109" width="1224" height="756" extended-state="0" />
+    <frame x="568" y="51" width="1224" height="756" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1903945" />
@@ -629,8 +631,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="483">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
