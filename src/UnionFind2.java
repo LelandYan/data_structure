@@ -1,6 +1,7 @@
 public class UnionFind2 implements UF {
     private int[] parent;
     public UnionFind2(int size){
+        parent = new int[size];
         for (int i = 0; i < size; i++) {
             parent[i] = i;
         }

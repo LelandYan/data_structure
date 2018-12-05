@@ -50,6 +50,12 @@ public class Main {
         for (int i = 0; i < m; i++) {
             int a = random.nextInt(size);
             int b = random.nextInt(size);
+            uf.unionElements(a,b);
+        }
+
+        for (int i = 0; i < m; i++) {
+            int a = random.nextInt(size);
+            int b = random.nextInt(size);
             uf.isConnected(a,b);
         }
         long endTime = System.nanoTime();
@@ -57,6 +63,18 @@ public class Main {
         return (endTime - startTime) / 1000000000.0;
     }
     public static void main(String[] args) {
+
+        int size = 100000;
+        int m = 100000;
+
+        UnionFind1 uf1 = new UnionFind1(size);
+        System.out.println(testUF(uf1,m));
+
+        UnionFind2 uf2 = new UnionFind2(size);
+        System.out.println(testUF(uf2,m));
+
+        UnionFind3 uf3 = new UnionFind3(size);
+        System.out.println(testUF(uf3,m));
 //        Integer[] nums = {-2, 0, 3, -5, 2, -1};
 //        SegmentTree<Integer> segTree = new SegmentTree<>(nums, (a, b) -> a + b);
 //        System.out.println(segTree.query(0, 5));
