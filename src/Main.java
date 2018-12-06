@@ -64,17 +64,26 @@ public class Main {
     }
     public static void main(String[] args) {
 
-        int size = 100000;
-        int m = 100000;
+        int size = 1000000;
+        int m = 1000000;
 
-        UnionFind1 uf1 = new UnionFind1(size);
-        System.out.println(testUF(uf1,m));
-
-        UnionFind2 uf2 = new UnionFind2(size);
-        System.out.println(testUF(uf2,m));
+//        UnionFind1 uf1 = new UnionFind1(size);
+//        System.out.println(testUF(uf1,m));
+//
+//        UnionFind2 uf2 = new UnionFind2(size);
+//        System.out.println(testUF(uf2,m));
 
         UnionFind3 uf3 = new UnionFind3(size);
         System.out.println(testUF(uf3,m));
+
+        UnionFind4 uf4 = new UnionFind4(size);
+        System.out.println(testUF(uf4,m));
+
+        UnionFind5 uf5 = new UnionFind5(size);
+        System.out.println(testUF(uf5,m));
+
+        UnionFind6 uf6 = new UnionFind6(size);
+        System.out.println(testUF(uf6,m));
 //        Integer[] nums = {-2, 0, 3, -5, 2, -1};
 //        SegmentTree<Integer> segTree = new SegmentTree<>(nums, (a, b) -> a + b);
 //        System.out.println(segTree.query(0, 5));
