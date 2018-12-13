@@ -43,9 +43,36 @@ public class AVLTree<K extends Comparable<K>, V>{
         if(Math.abs(balanceFactor) > 1){
             System.out.println("unbalanced :" + balanceFactor);
         }
+
+        if(balanceFactor > 1 && getBalanceFactor(node.left)>=0 ){
+            return rightRotate(node);
+        }
+        if(balanceFactor < -1 && getBalanceFactor(node.right)<=0 ){
+            return leftRotate(node);
+        }
         return node;
     }
+    private Node leftRotate(Node y){
+        Node x = y.right;
+        Node T2 = x.left;
 
+        x.left = y;
+        y.right = T2;
+
+        y.height = Math.max(getHeight(y.left),getHeight(y.right));
+        x.height =  Math.max(getHeight(x.left),getHeight(x.right));
+        return x;
+    }
+    private Node rightRotate(Node y){
+        Node x = y.left;
+        Node T3 = x.right;
+
+        x.right = y;
+        y.left = T3;
+        y.height = Math.max(getHeight(y.left),getHeight(y.right));
+        x.height = Math.max(getHeight(x.left),getHeight(x.right));
+        return x;
+    }
     public V remove(K key) {
         Node node = getNode(root, key);
         if (node != null) {
