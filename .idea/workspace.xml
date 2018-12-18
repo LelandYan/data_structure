@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array_Rewrite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,38 +18,38 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.26" value="2" />
-          <entry key="project.open.time.27" value="5" />
-          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.27" value="6" />
+          <entry key="project.open.time.28" value="3" />
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="81" />
+          <entry key="java" value="84" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="81" />
+          <entry key="JAVA" value="84" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="26007" />
+          <entry key="java" value="27273" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="26007" />
+          <entry key="JAVA" value="27273" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -57,25 +57,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Array.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2370">
-              <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="2220">
+              <caret line="124" column="76" lean-forward="true" selection-start-line="124" selection-start-column="76" selection-end-line="124" selection-end-column="76" />
               <folding>
-                <element signature="method#AVLTree#0;class#AVLTree#0" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="method#leftRotate#0;class#AVLTree#0" />
-                <element signature="method#rightRotate#0;class#AVLTree#0" />
-                <element signature="method#remove#0;class#AVLTree#0" />
-                <element signature="method#minimum#0;class#AVLTree#0" />
-                <element signature="method#get#0;class#AVLTree#0" />
-                <element signature="method#set#0;class#AVLTree#0" />
-                <element signature="method#isBST#0;class#AVLTree#0" />
-                <element signature="method#inOrder#0;class#AVLTree#0" />
-                <element signature="e#5751#5752#0" expanded="true" />
-                <element signature="e#5790#5791#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="method#get#0;class#Array#0" />
+                <element signature="method#set#0;class#Array#0" />
+                <element signature="method#contains#0;class#Array#0" />
+                <element signature="method#find#0;class#Array#0" />
+                <element signature="method#remove#0;class#Array#0" />
+                <element signature="e#1848#1849#0" expanded="true" />
+                <element signature="e#1876#1877#0" expanded="true" />
+                <element signature="method#remvoeElement#0;class#Array#0" />
+                <element signature="e#2474#2475#0" expanded="true" />
+                <element signature="e#2510#2511#0" expanded="true" />
+                <element signature="e#2537#2538#0" expanded="true" />
+                <element signature="e#2566#2567#0" expanded="true" />
+                <element signature="method#swap#0;class#Array#0" />
+                <element signature="method#resize#0;class#Array#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Array_Rewrite.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+              <folding>
+                <element signature="method#Array_Rewrite#1;class#Array_Rewrite#0" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#574#575#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/AVLTree.java" />
+        <option value="$PROJECT_DIR$/src/Array_Rewrite.java" />
       </list>
     </option>
   </component>
@@ -152,9 +176,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1015" />
-    <option name="y" value="337" />
-    <option name="width" value="1364" />
+    <option name="x" value="420" />
+    <option name="y" value="16" />
+    <option name="width" value="1365" />
     <option name="height" value="1015" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -167,6 +191,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,13 +208,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544687476606" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545147635821" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -209,7 +233,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AVLTree">
+  <component name="RunManager" selected="Application.Array_Rewrite">
     <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AVLTree" />
       <module name="data_structure" />
@@ -217,8 +241,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BSTMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BSTMap" />
+    <configuration name="Array_Rewrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array_Rewrite" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,18 +274,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.BSTMap" />
       <item itemvalue="Application.Dijkstra" />
       <item itemvalue="Application.AVLTree" />
       <item itemvalue="Application.Fibonacci" />
+      <item itemvalue="Application.Array_Rewrite" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Array_Rewrite" />
         <item itemvalue="Application.AVLTree" />
         <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.BSTMap" />
       </list>
     </recent_temporary>
   </component>
@@ -294,6 +318,8 @@
       <workItem from="1544023418720" duration="3196000" />
       <workItem from="1544074232760" duration="8216000" />
       <workItem from="1544680188191" duration="6256000" />
+      <workItem from="1544700252858" duration="1210000" />
+      <workItem from="1545143707857" duration="3898000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -327,13 +353,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107675000" />
+    <option name="totallyTimeSpent" value="112783000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="562" y="85" width="1091" height="812" extended-state="0" />
+    <frame x="336" y="13" width="1092" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18877058" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18181819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -543,13 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -708,34 +727,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
-          <folding>
-            <element signature="method#testHeap#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2370">
-          <caret line="41" column="43" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="180">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding>
+            <element signature="class#Node#0;class#AVLTree#0" />
             <element signature="method#AVLTree#0;class#AVLTree#0" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
+            <element signature="method#add#1;class#AVLTree#0" />
             <element signature="method#leftRotate#0;class#AVLTree#0" />
             <element signature="method#rightRotate#0;class#AVLTree#0" />
             <element signature="method#remove#0;class#AVLTree#0" />
             <element signature="method#minimum#0;class#AVLTree#0" />
+            <element signature="method#remove#1;class#AVLTree#0" />
             <element signature="method#get#0;class#AVLTree#0" />
             <element signature="method#set#0;class#AVLTree#0" />
             <element signature="method#isBST#0;class#AVLTree#0" />
             <element signature="method#inOrder#0;class#AVLTree#0" />
-            <element signature="e#5751#5752#0" expanded="true" />
-            <element signature="e#5790#5791#0" expanded="true" />
+            <element signature="method#isBalanced#1;class#AVLTree#0" />
+            <element signature="method#getHeight#0;class#AVLTree#0" />
+            <element signature="method#getBalanceFactor#0;class#AVLTree#0" />
+            <element signature="method#getNode#0;class#AVLTree#0" />
+            <element signature="method#main#0;class#AVLTree#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2220">
+          <caret line="124" column="76" lean-forward="true" selection-start-line="124" selection-start-column="76" selection-end-line="124" selection-end-column="76" />
+          <folding>
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="method#get#0;class#Array#0" />
+            <element signature="method#set#0;class#Array#0" />
+            <element signature="method#contains#0;class#Array#0" />
+            <element signature="method#find#0;class#Array#0" />
+            <element signature="method#remove#0;class#Array#0" />
+            <element signature="e#1848#1849#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="method#remvoeElement#0;class#Array#0" />
+            <element signature="e#2474#2475#0" expanded="true" />
+            <element signature="e#2510#2511#0" expanded="true" />
+            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2566#2567#0" expanded="true" />
+            <element signature="method#swap#0;class#Array#0" />
+            <element signature="method#resize#0;class#Array#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Array_Rewrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="68" column="66" selection-start-line="68" selection-start-column="66" selection-end-line="68" selection-end-column="66" />
+          <folding>
+            <element signature="method#Array_Rewrite#1;class#Array_Rewrite#0" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
           </folding>
         </state>
       </provider>
