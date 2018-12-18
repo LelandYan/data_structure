@@ -42,7 +42,7 @@ public class Array_Rewrite<E> {
         //这里可以 index = size 的原因是，可能数组已经满了所以size指的数组的长度
         if (index < 0 && index > size) throw new IllegalArgumentException("非法插入");
         if (size == data.length) resize(data.length * 2);
-        for (int i = size - 1; i <= index; i++) {
+        for (int i = size - 1; i >= index; i--) {
             data[i + 1] = data[i];
         }
         data[index] = e;
@@ -52,7 +52,7 @@ public class Array_Rewrite<E> {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append("size = %d, capacity = %d",size,data.length);
+        res.append(String.format("size = %d, capacity = %d\n",size,data.length));
         res.append("[");
         for (int i = 0; i < size; i++) {
             res.append(data[i]);
@@ -63,7 +63,9 @@ public class Array_Rewrite<E> {
     }
 
     public static void main(String[] args) {
-        int[] arrs = {1,2,3,4,5,6,7,8};
-        Array_Rewrite<Integer> newArr = new Array_Rewrite<>();
+        Integer[] arrs = {1,2,3,4,5,6,7,8};
+        Array_Rewrite<Integer> newArr = new Array_Rewrite<>(arrs);
+        newArr.add(0,10);
+        System.out.println(newArr);
     }
 }
