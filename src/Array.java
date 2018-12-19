@@ -58,13 +58,14 @@ public class Array<E> {
     public E remove(int index) {
         if (index < 0 || index >= size)
             throw new IllegalArgumentException("Delete failed,Require index > 0 and index <= size");
+        E ret = data[index];
         for (int i = index + 1; i < size; i++) {
             data[i - 1] = data[i];
         }
         size--;
         data[size] = null;
         if (size == data.length / 4 && data.length / 2 != 0) resize(data.length / 2);
-        return data[index];
+        return ret;
 
     }
 

@@ -12,23 +12,22 @@ public class Array_Rewrite<E> {
 
     public Array_Rewrite(int capacity) {
         data = (E[]) new Object[capacity];
-        size = capacity;
+        size = 0;
     }
 
     public Array_Rewrite() {
         this(10);
     }
-    public int getSize(){
+
+    public int getSize() {
         return size;
     }
-    public int getCapacity(){
+
+    public int getCapacity() {
         return data.length;
     }
-    public void addLast(E e) {
-        add(size, e);
-    }
-    public void addFirst(E e){
-        add(0,e);
+    public boolean isEmpty(){
+        return size == 0;
     }
     private void resize(int capacity) {
         E[] newData = (E[]) new Object[capacity];
@@ -36,6 +35,14 @@ public class Array_Rewrite<E> {
             newData[i] = data[i];
         }
         data = newData;
+    }
+
+    public void addLast(E e) {
+        add(size, e);
+    }
+
+    public void addFirst(E e) {
+        add(0, e);
     }
 
     public void add(int index, E e) {
@@ -48,24 +55,77 @@ public class Array_Rewrite<E> {
         data[index] = e;
         size++;
     }
+    public E removeFirst(){
+        return remove(0);
+    }
+    public E removeLast(){
+        return remove(size-1);
+    }
+    public E remove(int index) {
+        if (index < 0 && index > size) throw new IllegalArgumentException("非法删除");
+        E ret = data[index];
+        for (int i = index + 1; i < size; i++) {
+            data[i - 1] = data[i];
+        }
+        size--;
+        data[size] = null;
+        if (size == data.length / 4 && data.length / 2 != 0) resize(data.length / 2);
+        return ret;
+    }
+
+    public E get(int index) {
+        if (index < 0 || index >= size) throw new IllegalArgumentException("非法获取");
+        return data[index];
+    }
+
+    public E getFirst() {
+        return data[0];
+    }
+
+    public E getLast() {
+        return data[size - 1];
+    }
+
+    public void set(int index, E e) {
+        if (index < 0 || index >= size) throw new IllegalArgumentException("非法设置");
+        data[index] = e;
+    }
+
+    public int find(E e) {
+        for (int i = 0; i < size; i++) {
+            if (data[i].equals(e)) return i;
+        }
+        return -1;
+    }
+
+    public boolean contains(E e) {
+        for (int i = 0; i < size; i++) {
+            if (data[i].equals(e)) return true;
+        }
+        return false;
+    }
 
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append(String.format("size = %d, capacity = %d\n",size,data.length));
+        res.append(String.format("size = %d, capacity = %d\n", size, data.length));
         res.append("[");
         for (int i = 0; i < size; i++) {
             res.append(data[i]);
-            if(i != size-1)res.append(",");
+            if (i != size - 1) res.append(",");
         }
         res.append("]");
         return res.toString();
     }
 
     public static void main(String[] args) {
-        Integer[] arrs = {1,2,3,4,5,6,7,8};
+        Integer[] arrs = {1, 2, 3, 4, 5, 6, 7, 8};
         Array_Rewrite<Integer> newArr = new Array_Rewrite<>(arrs);
-        newArr.add(0,10);
+        newArr.add(newArr.getSize(), 11);
+        newArr.add(newArr.getSize(), 10);
+        newArr.remove(2);
+        newArr.removeFirst();
+        newArr.removeLast();
         System.out.println(newArr);
     }
 }
