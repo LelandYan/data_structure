@@ -126,6 +126,7 @@ public class Array_Rewrite<E> {
         newArr.remove(2);
         newArr.removeFirst();
         newArr.removeLast();
+        System.out.println(newArr.contains(12));
         System.out.println(newArr);
     }
 }
