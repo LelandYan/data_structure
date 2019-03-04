@@ -85,17 +85,16 @@ public class for_recursion {
     }
 
     public static void p(int n, int[] a, int k) {
-        if(n <= 0){
-            for (int i = 0; i < k; i++) {
+        if (n <= 0) {
+            for (int i = 0; i < k; i++)
                 System.out.print(a[i] + " ");
-            }
             System.out.println();
             return;
         }
-        for(int i = n; i> 0; i--){
-//            if(k > 0 && i > a[k-1])continue;
+        for (int i = n; i > 0; i--) {
+            if(k > 0 && i > a[k-1])continue ;
             a[k] = i;
-            p(n-1,a,k+1);
+            p(n - 1, a, k + 1);
         }
     }
 
@@ -136,8 +135,8 @@ public class for_recursion {
 //        System.out.println(a.substring(1));
 
         // 反字符串
-        String s1 = "abc";
-        System.out.println(reverse(s1));
+//        String s1 = "abc";
+//        System.out.println(reverse(s1));
 
         // 杨辉三角
 //        int lenve = 5;

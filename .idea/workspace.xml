@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bracket_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/small_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/for_recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/for_recursion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/for_recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/for_recursion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,7 +19,7 @@
     <session id="1444095885">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="6" />
           <entry key="project.open.time.28" value="4" />
@@ -30,25 +34,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="97" />
+          <entry key="java" value="99" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="97" />
+          <entry key="JAVA" value="99" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="31070" />
+          <entry key="java" value="31398" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31070" />
+          <entry key="JAVA" value="31398" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -56,18 +60,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/for_recursion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+            <state relative-caret-position="570">
+              <caret line="100" column="44" lean-forward="true" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
               <folding>
                 <element signature="method#f#0;class#for_recursion#0" />
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
+                <element signature="method#f2#0;class#for_recursion#0" />
+                <element signature="method#f3#0;class#for_recursion#0" />
+                <element signature="method#f4#0;class#for_recursion#0" />
+                <element signature="method#f6#0;class#for_recursion#0" />
+                <element signature="method#c#0;class#for_recursion#0" />
+                <element signature="method#a#0;class#for_recursion#0" />
                 <element signature="method#l#0;class#for_recursion#0" />
-                <element signature="e#1939#1979#0" />
+                <element signature="method#reverse#0;class#for_recursion#0" />
+                <element signature="method#f#1;class#for_recursion#0" />
+                <element signature="method#g#0;class#for_recursion#0" />
+                <element signature="e#2865#2905#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/small_number.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/bracket_test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -137,6 +169,8 @@
         <option value="$PROJECT_DIR$/src/Trangle.java" />
         <option value="$PROJECT_DIR$/src/GetMaxValue1.java" />
         <option value="$PROJECT_DIR$/src/for_recursion.java" />
+        <option value="$PROJECT_DIR$/src/small_number.java" />
+        <option value="$PROJECT_DIR$/src/bracket_test.java" />
       </list>
     </option>
   </component>
@@ -146,7 +180,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="425" />
     <option name="y" value="75" />
     <option name="width" value="1365" />
@@ -184,7 +218,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551628356156" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551674754822" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -206,14 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.for_recursion">
-    <configuration name="AVLTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AVLTree" />
-      <module name="data_structure" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.small_number">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayQueue" />
       <module name="data_structure" />
@@ -242,20 +269,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="small_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="small_number" />
+      <module name="data_structure" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AVLTree" />
       <item itemvalue="Application.Array_Rewrite" />
       <item itemvalue="Application.ArrayQueue" />
       <item itemvalue="Application.GetMaxValue1" />
       <item itemvalue="Application.for_recursion" />
+      <item itemvalue="Application.small_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.small_number" />
         <item itemvalue="Application.for_recursion" />
         <item itemvalue="Application.GetMaxValue1" />
         <item itemvalue="Application.ArrayQueue" />
         <item itemvalue="Application.Array_Rewrite" />
-        <item itemvalue="Application.AVLTree" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +329,7 @@
       <workItem from="1547947846547" duration="1232000" />
       <workItem from="1548249669599" duration="1668000" />
       <workItem from="1548753094849" duration="609000" />
-      <workItem from="1551600425056" duration="16486000" />
+      <workItem from="1551600425056" duration="22076000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -329,7 +363,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138922000" />
+    <option name="totallyTimeSpent" value="144512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
@@ -343,7 +377,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7986577" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3489933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39963168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,13 +441,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="+防止复杂度震荡" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2010">
-          <caret line="107" column="40" selection-start-line="107" selection-start-column="40" selection-end-line="107" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1904">
@@ -762,15 +789,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/for_recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="88" column="40" selection-start-line="88" selection-start-column="40" selection-end-line="88" selection-end-column="40" />
+        <state relative-caret-position="570">
+          <caret line="100" column="44" lean-forward="true" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
           <folding>
             <element signature="method#f#0;class#for_recursion#0" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
+            <element signature="method#f2#0;class#for_recursion#0" />
+            <element signature="method#f3#0;class#for_recursion#0" />
+            <element signature="method#f4#0;class#for_recursion#0" />
+            <element signature="method#f6#0;class#for_recursion#0" />
+            <element signature="method#c#0;class#for_recursion#0" />
+            <element signature="method#a#0;class#for_recursion#0" />
             <element signature="method#l#0;class#for_recursion#0" />
-            <element signature="e#1939#1979#0" />
+            <element signature="method#reverse#0;class#for_recursion#0" />
+            <element signature="method#f#1;class#for_recursion#0" />
+            <element signature="method#g#0;class#for_recursion#0" />
+            <element signature="e#2865#2905#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/small_number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bracket_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
