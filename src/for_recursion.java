@@ -52,13 +52,13 @@ public class for_recursion {
                 char t = data[k];
                 data[k] = data[i];
                 data[i] = t;
-            } // 试探
+            } // 璇曟帰
             a(data, k + 1);
             {
                 char t = data[k];
                 data[k] = data[i];
                 data[i] = t;
-            } // 回溯
+            } // 鍥炴函
         }
     }
 
@@ -119,36 +119,36 @@ public class for_recursion {
 //        System.out.println(f6("abc","abc"));
 
 //        char[] data = "ABCDE".toCharArray();
-        // 在n个球中，取出m个（不放回），求有多少种不同的取法
+        // 鍦╪涓悆涓紝鍙栧嚭m涓紙涓嶆斁鍥烇級锛屾眰鏈夊灏戠涓嶅悓鐨勫彇娉�
 //        int k = c(10, 3);
 ////        System.out.println(k);
 //
-//        // 求n个元素的全排列
+//        // 姹俷涓厓绱犵殑鍏ㄦ帓鍒�
 //        char[] data = "ABC".toCharArray();
 //        a(data,0);
 //
-//        // 求两个串的最大公共子序列的长度
+//        // 姹備袱涓覆鐨勬渶澶у叕鍏卞瓙搴忓垪鐨勯暱搴�
 //        int w = l("asfgsdgsdgdfcd","xbacskjld");
 //        System.out.println(w);
 //
 //        String a = "abc";
 //        System.out.println(a.substring(1));
 
-        // 反字符串
+        // 鍙嶅瓧绗︿覆
 //        String s1 = "abc";
 //        System.out.println(reverse(s1));
 
-        // 杨辉三角
+        // 鏉ㄨ緣涓夎
 //        int lenve = 5;
 //        for (int i = 0; i <= lenve; i++) {
 //            System.out.print(f(lenve, i) + " ");
 
 //        }
-        //m个A，n个B，组成多少排列
+        //m涓狝锛宯涓狟锛岀粍鎴愬灏戞帓鍒�
 
 
-        //对n进行加法划分
-        int[] a = new int[1000];
-        p(6, a, 0);
+        //瀵筺杩涜鍔犳硶鍒掑垎
+//        int[] a = new int[1000];
+//        p(6, a, 0);
     }
 }
