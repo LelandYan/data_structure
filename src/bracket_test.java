@@ -138,22 +138,24 @@ public class bracket_test {
 //		System.out.println(a*b/gcd(a,b));
 		
 		//求第n个素数 --- 使用筛选法
-		int N = 1000 * 1000 * 10;
-		int x = 3;
+//		int N = 1000 * 1000 * 10;
+//		int x = 3;
+//		
+//		byte[] a = new byte[N];
+//		for(int i = 2; i< N/2; i++) {
+//			if(a[i] == 1)continue;
+//			for(int k =2; k < N/i;k++) {
+//				if(i*k<N)a[i*k] = 1;
+//			}
+//		}
+//		int m = 0;
+//		for(int i=2; i < N; i++) {
+//			if(a[i] == 0) {
+//				m++;
+//				if(m==x)System.out.println(i + " ");
+//			}
+//		}
+	    // 不定方程的解决
 		
-		byte[] a = new byte[N];
-		for(int i = 2; i< N/2; i++) {
-			if(a[i] == 1)continue;
-			for(int k =2; k < N/i;k++) {
-				if(i*k<N)a[i*k] = 1;
-			}
-		}
-		int m = 0;
-		for(int i=2; i < N; i++) {
-			if(a[i] == 0) {
-				m++;
-				if(m==x)System.out.println(i + " ");
-			}
-		}
 	}
 }
