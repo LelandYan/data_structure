@@ -2,11 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bracket_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/small_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bitCompute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/for_recursion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/for_recursion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/for_recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/for_recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTree$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AVLTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArrayStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array_Rewrite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BST.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSTSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dijkstra.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibonacci.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListMap$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedListStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MaxHeap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Merger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NumArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SegmentTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Set.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution$Freq.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Trie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnionFind6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bracket_test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/for_recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/small_number.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/solution_pratice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/solution_pratice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/the_max_total_of_series.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/work.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/work.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,37 +77,37 @@
           <entry key="project.closed" value="10" />
           <entry key="project.open.time.26" value="3" />
           <entry key="project.open.time.27" value="6" />
-          <entry key="project.open.time.28" value="4" />
+          <entry key="project.open.time.28" value="5" />
           <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.30" value="4" />
           <entry key="project.open.time.32" value="3" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="99" />
+          <entry key="java" value="101" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="99" />
+          <entry key="JAVA" value="101" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="31398" />
+          <entry key="java" value="32032" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="31398" />
+          <entry key="JAVA" value="32032" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -61,45 +116,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/for_recursion.java">
+        <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="100" column="44" lean-forward="true" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
-              <folding>
-                <element signature="method#f#0;class#for_recursion#0" />
-                <element signature="method#f2#0;class#for_recursion#0" />
-                <element signature="method#f3#0;class#for_recursion#0" />
-                <element signature="method#f4#0;class#for_recursion#0" />
-                <element signature="method#f6#0;class#for_recursion#0" />
-                <element signature="method#c#0;class#for_recursion#0" />
-                <element signature="method#a#0;class#for_recursion#0" />
-                <element signature="method#l#0;class#for_recursion#0" />
-                <element signature="method#reverse#0;class#for_recursion#0" />
-                <element signature="method#f#1;class#for_recursion#0" />
-                <element signature="method#g#0;class#for_recursion#0" />
-                <element signature="e#2865#2905#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/small_number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/bracket_test.java">
+        <entry file="file://$PROJECT_DIR$/src/bitCompute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="315">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,6 +203,8 @@
         <option value="$PROJECT_DIR$/src/for_recursion.java" />
         <option value="$PROJECT_DIR$/src/small_number.java" />
         <option value="$PROJECT_DIR$/src/bracket_test.java" />
+        <option value="$PROJECT_DIR$/src/位运算.java" />
+        <option value="$PROJECT_DIR$/src/bitCompute.java" />
       </list>
     </option>
   </component>
@@ -180,7 +214,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="425" />
     <option name="y" value="75" />
     <option name="width" value="1365" />
@@ -196,6 +230,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -212,13 +247,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551674754822" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554116961013" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -240,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.small_number">
+  <component name="RunManager" selected="Application.bitCompute">
     <configuration name="ArrayQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayQueue" />
       <module name="data_structure" />
@@ -248,15 +282,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Array_Rewrite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array_Rewrite" />
+    <configuration name="GetMaxValue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetMaxValue1" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxValue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetMaxValue1" />
+    <configuration name="bitCompute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bitCompute" />
       <module name="data_structure" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,19 +311,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Array_Rewrite" />
       <item itemvalue="Application.ArrayQueue" />
       <item itemvalue="Application.GetMaxValue1" />
       <item itemvalue="Application.for_recursion" />
       <item itemvalue="Application.small_number" />
+      <item itemvalue="Application.bitCompute" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.bitCompute" />
         <item itemvalue="Application.small_number" />
         <item itemvalue="Application.for_recursion" />
         <item itemvalue="Application.GetMaxValue1" />
         <item itemvalue="Application.ArrayQueue" />
-        <item itemvalue="Application.Array_Rewrite" />
       </list>
     </recent_temporary>
   </component>
@@ -330,6 +364,7 @@
       <workItem from="1548249669599" duration="1668000" />
       <workItem from="1548753094849" duration="609000" />
       <workItem from="1551600425056" duration="22076000" />
+      <workItem from="1554097012036" duration="3753000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -363,12 +398,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144512000" />
+    <option name="totallyTimeSpent" value="148265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25682294" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.067179844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24982505" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -377,7 +413,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3489933" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3489933" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39963168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,13 +477,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="+防止复杂度震荡" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="568" column="7" lean-forward="true" selection-start-line="568" selection-start-column="7" selection-end-line="568" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -690,13 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2700">
@@ -715,18 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1350">
           <caret line="125" column="25" selection-start-line="125" selection-start-column="25" selection-end-line="125" selection-end-column="25" />
-          <folding>
-            <element signature="method#Array_Rewrite#0;class#Array_Rewrite#0" />
-            <element signature="method#Array_Rewrite#1;class#Array_Rewrite#0" />
-            <element signature="method#resize#0;class#Array_Rewrite#0" />
-            <element signature="method#add#0;class#Array_Rewrite#0" />
-            <element signature="method#remove#0;class#Array_Rewrite#0" />
-            <element signature="method#get#0;class#Array_Rewrite#0" />
-            <element signature="method#set#0;class#Array_Rewrite#0" />
-            <element signature="method#find#0;class#Array_Rewrite#0" />
-            <element signature="method#contains#0;class#Array_Rewrite#0" />
-            <element signature="method#toString#0;class#Array_Rewrite#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -741,14 +751,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
-          <folding>
-            <element signature="method#LoopQueue#0;class#LoopQueue#0" />
-            <element signature="method#enqueue#0;class#LoopQueue#0" />
-            <element signature="method#resize#0;class#LoopQueue#0" />
-            <element signature="method#dequeue#0;class#LoopQueue#0" />
-            <element signature="method#toString#0;class#LoopQueue#0" />
-            <element signature="method#main#0;class#LoopQueue#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,13 +775,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GetMaxValue1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GetMaxValue1.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
@@ -789,8 +785,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/for_recursion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="100" column="44" lean-forward="true" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+        <state relative-caret-position="1860">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
           <folding>
             <element signature="method#f#0;class#for_recursion#0" />
             <element signature="method#f2#0;class#for_recursion#0" />
@@ -799,19 +795,14 @@
             <element signature="method#f6#0;class#for_recursion#0" />
             <element signature="method#c#0;class#for_recursion#0" />
             <element signature="method#a#0;class#for_recursion#0" />
-            <element signature="method#l#0;class#for_recursion#0" />
-            <element signature="method#reverse#0;class#for_recursion#0" />
-            <element signature="method#f#1;class#for_recursion#0" />
-            <element signature="method#g#0;class#for_recursion#0" />
-            <element signature="e#2865#2905#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/small_number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="450">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -820,8 +811,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bracket_test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="456">
+          <caret line="159" column="5" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bitCompute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
