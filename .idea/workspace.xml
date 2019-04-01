@@ -2,66 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bitCompute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_Rewrite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bracket_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/for_recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/small_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/solution_pratice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/solution_pratice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/the_max_total_of_series.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/work.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/work.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bitCompute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bitCompute.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,13 +42,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="32032" />
+          <entry key="java" value="32285" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="32032" />
+          <entry key="JAVA" value="32285" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -127,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bitCompute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="330">
+              <caret line="38" column="41" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="38" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,7 +155,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="425" />
     <option name="y" value="75" />
     <option name="width" value="1365" />
@@ -252,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554116961013" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554119619790" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -364,7 +305,7 @@
       <workItem from="1548249669599" duration="1668000" />
       <workItem from="1548753094849" duration="609000" />
       <workItem from="1551600425056" duration="22076000" />
-      <workItem from="1554097012036" duration="3753000" />
+      <workItem from="1554097012036" duration="6299000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -398,7 +339,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148265000" />
+    <option name="totallyTimeSpent" value="150811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1487" height="878" extended-state="6" />
@@ -825,8 +766,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bitCompute.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="330">
+          <caret line="38" column="41" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="38" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
