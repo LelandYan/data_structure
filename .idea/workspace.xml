@@ -2,102 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lanqiao/Bit_Operation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/AVLTree$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/AVLTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Array.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/ArrayQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/ArrayStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Array_Rewrite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BST$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BSTMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BSTMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/BSTSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Dijkstra.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Fibonacci.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/FileOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListQueue$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListSet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LinkedListStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/LoopQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Map.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/MaxHeap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Merger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/NumArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/PriorityQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/SegmentTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Set.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Solution$Freq.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Trangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Trie$Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/Trie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UF.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/UnionFind6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/bitCompute.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/bracket_test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/for_recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/small_number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/AVLTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArrayStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/ArrayStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array_Rewrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Array_Rewrite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/BSTMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BSTSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/BSTSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Dijkstra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Fibonacci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/FileOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LinkedListMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LinkedListQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LinkedListSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LinkedListStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/LoopQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/MaxHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Merger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Merger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NumArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/NumArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PriorityQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/PriorityQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/SegmentTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Set.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Trangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/Trie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/UnionFind6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bitCompute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/bitCompute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bracket_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/bracket_test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/for_recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/for_recursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/small_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data_structure_java/small_number.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data_structure/lanqiao/Bit_Operation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/lanqiao/Bit_Operation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lanqiao/Bit_Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanqiao/Bit_Operation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -137,13 +44,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="33160" />
+          <entry key="java" value="34434" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="33160" />
+          <entry key="JAVA" value="34434" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -154,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lanqiao/Bit_Operation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+            <state relative-caret-position="407">
+              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,8 +158,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="175" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="337" />
+    <option name="y" value="98" />
     <option name="width" value="1365" />
     <option name="height" value="1015" />
   </component>
@@ -294,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555771585720" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555774581771" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -419,7 +327,7 @@
       <workItem from="1548753094849" duration="609000" />
       <workItem from="1551600425056" duration="22076000" />
       <workItem from="1554097012036" duration="7498000" />
-      <workItem from="1555752747084" duration="2488000" />
+      <workItem from="1555752747084" duration="5415000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -453,10 +361,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154498000" />
+    <option name="totallyTimeSpent" value="157425000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="140" y="0" width="1092" height="812" extended-state="0" />
+    <frame x="-7" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17062937" />
@@ -468,7 +376,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33578792" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30604026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39963168" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -887,8 +795,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lanqiao/Bit_Operation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="22" />
+        <state relative-caret-position="407">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
