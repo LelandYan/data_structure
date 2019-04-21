@@ -26,10 +26,31 @@ public class recrusion {
         System.out.println("move "+N+" from "+from+" to"+from);
         printHano(N-1,helper,to,from);
     }
+    private static int BinarySearch1(int[] arr,int low,int high,int key){
+        if(low > high)return -1;
+        int mid = low + ((high-low)>>1);
+        int midVal = arr[mid];
+        if(midVal < key){
+            return BinarySearch1(arr,mid+1,high,key);
+        }else if(midVal > key){
+            return BinarySearch1(arr,low,mid-1,key);
+        }else{
+            return mid;
+        }
+    }
+    private static int floor(int a){
+        if(a==0)return 1;
+        if(a==1)return 1;
+        if(a==2)return 2;
+        return floor(a-1)+floor(a-2)+floor(a-3);
+    }
     public static void main(String[] args) {
-        int[] arr = {5,6,7,2,1,4};
-        System.out.println(Arrays.toString(arr));
-        insertSort(arr,arr.length-1);
-        System.out.println(Arrays.toString(arr));
+        int[] arr = {1,2,3,4,5,6};
+        int res= BinarySearch1(arr,0,arr.length-1,5);
+        System.out.println(res);
+//        int[] arr = {5,6,7,2,1,4};
+//        System.out.println(Arrays.toString(arr));
+//        insertSort(arr,arr.length-1);
+//        System.out.println(Arrays.toString(arr));
     }
 }
