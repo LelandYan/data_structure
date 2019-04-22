@@ -88,31 +88,39 @@ public class recrusion {
     }
 
     private static int MaxLen(int[] arr) {
-        int begin = 0;
-        int end = 1;
+        int begin = 1;
+        int end = 2;
         int max_len = 0;
         int len = 0;
-        while ((end < arr.length) && (begin <= end)) {
+        while ((end <= arr.length+1) && (begin <= end)) {
             int temp = begin;
-            while(arr[end] > arr[temp]){
-                temp++;
-                end++;
+            if(end==arr.length+1){
+                len = end - begin;
+                if(len > max_len)max_len = len;
+                break;
+            }else {
+                while (arr[end - 1] > arr[temp - 1]) {
+                    temp++;
+                    end++;
+                    if (temp == arr.length) {
+                        end = arr.length + 1;
+                        break;
+                    }
+                }
+                end--;
+                len = end - begin + 1;
+                if (len > max_len) max_len = len;
+                begin = end + 1;
+                end = begin + 1;
             }
-            end--;
-            len = end - begin+1;
-            System.out.println(begin+" "+end+" "+len);
-            if(len > max_len)max_len = len;
-            begin = end+1;
-            end = begin + 1;
-            System.out.println("next :"+begin+" "+end);
         }
     return max_len;
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,9,2,5,7,3,4,6,8,0};
+        int[] arr = {1,9,2,5,7,3,4,6,8,9,10};
         System.out.println(Arrays.toString(arr));
-        MaxLen(arr);
+        System.out.println(MaxLen(arr));
 //        System.out.println(MaxLen(arr));
 //        String[] arr = {"a","","ac","ad","b","","ba"};
 //        int res = indexOf(arr,"abc");
