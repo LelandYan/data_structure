@@ -24,11 +24,11 @@ public class recrusion {
 
     private static void printHano(int N, String from, String to, String helper) {
         if (N == 1) {
-            System.out.println("move " + N + " from " + from + " to" + from);
+            System.out.println("move " + N + " from " + from + " to" + to);
             return;
         }
         printHano(N - 1, from, helper, to);
-        System.out.println("move " + N + " from " + from + " to" + from);
+        System.out.println("move " + N + " from " + from + " to" + to);
         printHano(N - 1, helper, to, from);
     }
 
@@ -117,10 +117,22 @@ public class recrusion {
     return max_len;
     }
 
+    // 求a的n次方（n为非负数）
+    private static int pow0(int a,int n){
+        if(n==0)return 1;
+        int res = a;
+        int ex = 1;
+        while((ex<<1)<=n){
+            res *= res;
+            ex<<=1;
+        }
+        return res*pow0(a,n-ex);
+    }
     public static void main(String[] args) {
-        int[] arr = {1,9,2,5,7,3,4,6,8,9,10};
-        System.out.println(Arrays.toString(arr));
-        System.out.println(MaxLen(arr));
+        System.out.println(pow0(2,11));
+//        int[] arr = {1,9,2,5,7,3,4,6,8,9,10};
+//        System.out.println(Arrays.toString(arr));
+//        System.out.println(MaxLen(arr));
 //        System.out.println(MaxLen(arr));
 //        String[] arr = {"a","","ac","ad","b","","ba"};
 //        int res = indexOf(arr,"abc");

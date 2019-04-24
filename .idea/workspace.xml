@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049addcf-2d44-43f7-896e-653308376c0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data_structure/lanqiao/recrusion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data_structure/lanqiao/recrusion.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lanqiao/recrusion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lanqiao/recrusion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,13 +42,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="37243" />
+          <entry key="java" value="37455" />
           <entry key="txt" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="37243" />
+          <entry key="JAVA" value="37455" />
           <entry key="PLAIN_TEXT" value="26" />
         </counts>
       </usages-collector>
@@ -61,10 +59,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lanqiao/recrusion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="92" column="24" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="-2002">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#MaxLen#0;class#recrusion#0" />
               </folding>
             </state>
           </provider>
@@ -150,7 +149,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="46" />
     <option name="y" value="177" />
     <option name="width" value="1365" />
@@ -194,7 +193,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555913102309" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555985481686" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
@@ -326,7 +325,7 @@
       <workItem from="1551600425056" duration="22076000" />
       <workItem from="1554097012036" duration="7498000" />
       <workItem from="1555752747084" duration="10458000" />
-      <workItem from="1555853259659" duration="10602000" />
+      <workItem from="1555853259659" duration="13700000" />
     </task>
     <task id="LOCAL-00001" summary="+泛型">
       <created>1542549088269</created>
@@ -360,10 +359,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173070000" />
+    <option name="totallyTimeSpent" value="176168000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1484" height="878" extended-state="6" />
+    <frame x="-7" y="-7" width="1486" height="878" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.17062937" />
@@ -779,10 +778,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lanqiao/recrusion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="92" column="24" lean-forward="true" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="-2002">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#MaxLen#0;class#recrusion#0" />
           </folding>
         </state>
       </provider>
