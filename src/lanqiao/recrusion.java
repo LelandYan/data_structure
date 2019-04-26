@@ -128,8 +128,73 @@ public class recrusion {
         }
         return res*pow0(a,n-ex);
     }
+    private static void quickSort(int[] A,int p,int r){
+        if(p<r){
+            int q = partition2(A,p,r);
+            quickSort(A,p,q-1);
+            quickSort(A,q+1,r);
+        }
+    }
+    private static int portition(int[] A,int p,int r){
+        int pivot = A[p];
+        int sp = p+1;
+        int bigger = r;
+        while(sp<=bigger){
+            if(A[sp]<=pivot)sp++;
+            else{
+                swap(A,sp,bigger);
+                bigger--;
+            }
+        }
+        swap(A,bigger,p);
+        return bigger;
+    }
+    private static int partition2(int[] A,int p,int r){
+
+        int midIndex = p + ((r-p)>>1);
+        int midVlaueIndex = -1;
+        if(A[p]<=A[midIndex]&&A[p]>=A[r]){
+            midVlaueIndex = p;
+        }else if(A[r]<=A[midIndex]&&A[r]>=A[p]){
+            midVlaueIndex = r;
+        }else{
+            midVlaueIndex = midIndex;
+        }
+        swap(A,p,midVlaueIndex);
+        int pivot = A[p];
+        int left = p+1;
+        int right = r;
+        while(left<=right){
+            while(left<=right&&A[left]<=pivot)left++;
+            while(left<=right&&A[right]>pivot)right--;
+            if(left<right)swap(A,left,right);
+        }
+        swap(A,p,right);
+        return right;
+    }
+    private static void swap(int[]A,int p,int r){
+        int tmp = A[p];
+        A[p] = A[r];
+        A[r] = tmp;
+    }
+    private static void sort(int[] arr,int low,int high){
+        if(low < high){
+            int middle = low + ((high-low)>>1);
+            sort(arr,low,middle);
+            sort(arr,middle+1,high);
+            merge(arr,low,middle,high);
+        }
+    }
+//    private int[] helper = new int[arr.length];
+    private static void merge(int[] arr,int low,int middle,int high){
+
+    }
     public static void main(String[] args) {
-        System.out.println(pow0(2,11));
+        int[] a = {5,3,5,4,2,6,9,8,7,3};
+        System.out.println(Arrays.toString(a));
+        quickSort(a,0,a.length-1);
+        System.out.println(Arrays.toString(a));
+//        System.out.println(pow0(2,11));
 //        int[] arr = {1,9,2,5,7,3,4,6,8,9,10};
 //        System.out.println(Arrays.toString(arr));
 //        System.out.println(MaxLen(arr));
