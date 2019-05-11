@@ -6,27 +6,21 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int child;
-        int n = 0;
-        int mother = 0;
-        int left = 0;
+        int need = sc.nextInt();
+        int[] arr = new int[6];
         int cnt = 0;
-        boolean flag = false;
-        while(cnt!=12){
-            child = sc.nextInt();
-            left = 300 - child + left;
-            if(left < 0) {
-                flag = true;
-                break;
-            }
-            else if(left>=100){
-                n = ((left/100)*100);
-                left-=n;
-                mother+=n;
-            }
-            cnt++;
+        int n,m;
+        int minValue=Integer.MAX_VALUE;
+        while(cnt != 6){
+            arr[cnt++] = sc.nextInt();
+            arr[cnt++] = sc.nextInt();
         }
-        if(flag)System.out.println("-"+(cnt+1));
-        else System.out.println(mother*12/10+left);
+        for(int i = 0; i < 6; i+=2){
+            n = need/arr[i];
+            if((need-n*arr[i])!=0)n+=1;
+            m = n*arr[i+1];
+            if(m<minValue)minValue=m;
+        }
+        System.out.println(minValue);
     }
 }
