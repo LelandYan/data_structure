@@ -3,24 +3,27 @@ package practice;
 import java.util.*;
 
 public class Main {
+
     public static void main(String[] args) {
+        int[] t = new int[200005];
+        int[] g = new int[200005];
+        int n;
+        int[] a = new int[105];
         Scanner sc = new Scanner(System.in);
-        int day = sc.nextInt();//3
-        long days = sc.nextInt();//10
-        long[] week = new long[7];
-        int cnt = 1;
-        for(int i=day-1;cnt<=days;i++,cnt++){
-            if(i>6){
-                i-=7;
-            }
-            week[i]++;
+        n = sc.nextInt();
+        for(int i = 1; i <=n; i++){
+            a[i] = sc.nextInt();
+            g[a[i]] = 1;
         }
-        long total=0;
-        for(int i = 0; i < 7; i++){
-            if(i<5){
-                total +=(week[i]*250);
+        for(int i =1; i<n;i++){
+            for(int j = i+1; j<=n;j++){
+                t[a[i]+a[j]]++;
             }
         }
-        System.out.println(total);
+        int ans = 0;
+        for(int i = 1; i <= 200002;i++){
+            if(t[i]>0&&g[i]!=0)ans++;
+        }
+        System.out.println(ans);
     }
 }
