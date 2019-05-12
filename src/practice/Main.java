@@ -3,27 +3,26 @@ package practice;
 import java.util.*;
 
 public class Main {
-
+	private static  char[] mod = new char[] {
+	 '0','1','2','3','4','5','6','7','8','9','X'
+	};
     public static void main(String[] args) {
-        int[] t = new int[200005];
-        int[] g = new int[200005];
-        int n;
-        int[] a = new int[105];
         Scanner sc = new Scanner(System.in);
-        n = sc.nextInt();
-        for(int i = 1; i <=n; i++){
-            a[i] = sc.nextInt();
-            g[a[i]] = 1;
+        String value = sc.next();
+        char[] num = value.toCharArray();
+        int j = 1,t=0;
+        for(int i = 0; i < num.length-1;i++) {
+        	if(num[i]=='-')continue;
+        	else {
+        		t+=(num[i]-'0')*j++;
+        	}
         }
-        for(int i =1; i<n;i++){
-            for(int j = i+1; j<=n;j++){
-                t[a[i]+a[j]]++;
-            }
+        if(mod[t%11]==num[12]) {
+        	System.out.println("Right");
+        }else {
+        	num[12]=mod[t%11];
+        	System.out.println(String.valueOf(num));
         }
-        int ans = 0;
-        for(int i = 1; i <= 200002;i++){
-            if(t[i]>0&&g[i]!=0)ans++;
-        }
-        System.out.println(ans);
+        
     }
 }
